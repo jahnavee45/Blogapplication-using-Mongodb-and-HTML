@@ -8,3 +8,5 @@
 5. Write the proper code to fetch data
 6. Create a public folder in the root and add a css folder in it to store the stylesheet
 7. Give style and run your localhost to see the results
+
+![](/images/application.png)
