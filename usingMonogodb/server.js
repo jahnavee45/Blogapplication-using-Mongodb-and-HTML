@@ -6,7 +6,7 @@ const ejs = require('ejs');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-mongoose.connect('mongodb+srv://royjahnavee1545:yBdWtizsNBcAPMq4@cluster0.d3hqsxh.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://<username>:.mongodb.net/<batabase-name>?retryWrites=true')
 
 const blogSchema = new mongoose.Schema({
     title: String,
@@ -25,7 +25,6 @@ app.get('/', async (req, res) => {
                 postList: []
             });
         }
-
         res.render('index', {
             postList: posts
         });
