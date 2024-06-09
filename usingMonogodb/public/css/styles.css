@@ -13,9 +13,13 @@
   }
   
   header {
-    background-color: #333;
+    background-color: #2c2239;
     color: #fff;
     padding: 1rem;
+  }
+
+  h1, h2{
+    color: #362a46;
   }
   
   nav ul {
